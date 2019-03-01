@@ -19,12 +19,6 @@
 		
 		var minuta = dzisiaj.getMinutes();
 		if (minuta<10) minuta = "0"+minuta;
-		if (minuta<=10) {linia1 = tablica[0][0];linia2 = tablica[0][1];} else {
-		if (minuta<=20) {linia1 = tablica[1][0];linia2 = tablica[1][1];} else {
-		if (minuta<=30) {linia1 = tablica[2][0];linia2 = tablica[2][1];} else {
-		if (minuta<=40) {linia1 = tablica[3][0];linia2 = tablica[3][1];} else {
-		if (minuta<=50) {linia1 = tablica[4][0];linia2 = tablica[4][1];} else {
-		if (minuta<60) {linia1 = tablica[5][0];linia2 = tablica[5][1];}}}}}}
 		
 		var sekunda = dzisiaj.getSeconds();
 		if (sekunda<10) sekunda = "0"+sekunda;
@@ -41,6 +35,5 @@
 		document.getElementById("autor").innerHTML = autor;
 		 
 		 setTimeout("odliczanie()",1000);
-
 		
 	}

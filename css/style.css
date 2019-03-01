@@ -191,6 +191,15 @@ a
 	-webkit-transform: translate(-250px, 105px) scale(2.05, 1.7);
 	-ms-transform: translate(-250px, 81px) scale(2.05, 1.7);
 	-o-transform: translate(-250px, 81px) scale(2.05, 1.7);
+	}
+
+.Oferta
+	{
+	margin: -30px;
+	width: 480px;
+	height: 304px;
+//	max-width: 100vw;
+//	max-height: 100vh;	
 	}	
 
 @keyframes serduszko
