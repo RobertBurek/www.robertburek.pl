@@ -7,38 +7,38 @@ body
 	}
 
 a.linkkafelka
-		{
-		color: #ffffff;	
-		text-decoration	:none;	
-		display: block;
-		width: 230px;
-		height: 142px;
-		}
+	{
+	color: #ffffff;	
+	text-decoration	:none;	
+	display: block;
+	width: 230px;
+	height: 142px;
+	}
 		
 a.linksocjala
-		{
-		color: #ffffff;	
-		text-decoration	:none;	
-		display: block;
-		width: 105px;
-		height: 142px;
-		}		
+	{
+	color: #ffffff;	
+	text-decoration	:none;	
+	display: block;
+	width: 105px;
+	height: 142px;
+	}		
 		
 a.linkhtml5
 	{
 	color: #ffffff;	
 	text-decoration	:none;
 	}
-	
+
 #zegar:hover
 	{
 	cursor: default;
 	}
 	
 a
-		{
+	{
 	color: #ffffff;
-		}
+	}
 	
 #kontener
 	{
@@ -80,6 +80,7 @@ a
 	float: left;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 70px;
+	padding-top: 20px;	
 	}
 
 .kafelek
@@ -156,6 +157,20 @@ a
 	padding:30px;
 	font-size: 19px;
 	line-height: 180%;
+	}
+
+.kafelek4:hover
+	{
+	cursor: default;
+	}
+
+#autor
+	{
+	height: 40px;
+	padding-top: 10px;
+	max-width: 100vw;
+	text-align: right;
+	font-size: 12px;
 	}	
 	
 .kafelek5
@@ -180,17 +195,11 @@ a
 
 @keyframes serduszko
 	{
-	  0%{transform: scale(1)}
-	  15%{transform: scale(1.05)}
-	  30%{transform: scale(1)}
-	  45%{transform: scale(1.05)}
-	  60%{transform: scale(1)}
-	}
-
-	
-.kafelek4:hover
-	{
-	cursor: default;
+	0%{transform: scale(1)}
+	15%{transform: scale(1.05)}
+	30%{transform: scale(1)}
+	45%{transform: scale(1.05)}
+	60%{transform: scale(1)}
 	}	
 	
 .yt
@@ -256,14 +265,3 @@ a
 	color: #d94348;
 	}
 
-
-
-
-
-	
-	
-	
-	
-	
-	
-	
