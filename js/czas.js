@@ -16,6 +16,7 @@
 				
 		var godzina = dzisiaj.getHours();
 		if (godzina<10) godzina = "0"+godzina;
+		if (godzina=="00") godzina = "24";
 		
 		var minuta = dzisiaj.getMinutes();
 		if (minuta<10) minuta = "0"+minuta;
