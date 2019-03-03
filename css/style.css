@@ -6,6 +6,16 @@ body
 	font-size: 20px;
 	}
 
+b 
+	{
+	color: black;
+	}
+
+.rodo
+	{
+	font-size: 11px;
+	}
+
 a.linkkafelka
 	{
 	color: #ffffff;	
@@ -203,11 +213,12 @@ a
 .kafelek5
 	{
 	margin:10px;
-	width: 420px;
-	height: 244px;
+	width: 440px;
+	height: 264px;
 	background-color: #666666;
 	text-align: justify;
-	padding: 30px;
+	padding: 20px;
+font-size: 17px;
 	transition: transform 0.7s ease-in-out;
 	}	
 
@@ -230,7 +241,7 @@ a
 	
 .oferta
 	{
-	margin: -30px;
+	margin: -20px;
 	width: 480px;
 	height: 304px;
 	background-size: 100% 100%;
@@ -317,5 +328,7 @@ a
 	font-size: 12px;
 	float: right;
 	color: #d94348;
+	width: 196px;
+	text-align: right;
 	}
 

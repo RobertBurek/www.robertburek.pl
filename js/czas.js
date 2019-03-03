@@ -9,6 +9,10 @@
 		tablica[3] = ['"Jeśli nie możesz robić rzeczy wielkich,</br>', 'rób małe rzeczy w wielki sposób."', 'NAPOLEON HILL'];
 		tablica[4] = ['"Sukces to nie to, co masz,</br>', 'ale to, kim jesteś."', 'BO BENNET'];
 		tablica[5] = ['"Wybierz pracę, którą kochasz, a nie przepracujesz</br>', 'ani jednego dnia więcej w Twoim życiu."', 'KONFUCJUSZ'];
+		tablica[6] = ['"Okazje biznesowe są jak autobusy,</br>', 'zawsze przyjedzie następny."', 'RICHARD BRANSON'];
+		tablica[7] = ['"Twoi najbardziej niezadowoleni klienci</br>', 'są najlepszym źródłem do nauki."', 'BILL GATES, Microsoft'];
+		tablica[8] = ['"Nie to, co osiągasz, ale to, co przezwyciężasz,</br>', 'definiuje Twoją karierę."', 'CARLTON FISK'];
+		tablica[9] = ['"Skoro i tak będziesz myśleć,</br>', 'myśl odważnie."', 'DONALD TRUMP'];
 
 		var linia1;
 		var linia2;
