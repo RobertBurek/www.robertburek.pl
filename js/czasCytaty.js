@@ -10,7 +10,7 @@ tablica[7] = ['"Twoi najbardziej niezadowoleni klienci</br>', 'są najlepszym ź
 tablica[8] = ['"Nie to, co osiągasz, ale to, co przezwyciężasz,</br>', 'definiuje Twoją karierę."', 'CARLTON FISK'];
 tablica[9] = ['"Skoro i tak będziesz myśleć,</br>', 'myśl odważnie."', 'DONALD TRUMP'];
 
-var coIle = 15;
+var coIle = 10;
 var i = Math.floor( Math.random() * ( tablica.length));
 var dzisiaj = new Date();
 var start = dzisiaj.getSeconds();
