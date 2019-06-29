@@ -1,5 +1,5 @@
 ﻿var i=1;
-var ilePrac=6;
+var ilePrac=4;
 
 function wPrawoCSS(element) {
   if (i==ilePrac) i=0;

@@ -1,40 +1,109 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Galeria dyplomów</title>
-    <link rel="stylesheet" href="css/dyplomy.css">
-</head>
-<body>
-    <div>
-        <button id="prev">Poprzedni</button>
-        <button id="next">Następny</button>
+<meta charset="utf-8" />
+<meta http-equive="X-UA-Compatible" content="EI=edge,chrome=1" />
+
+<title>Robert Burek - portfolio</title>
+
+<meta name="keywords" content="tworzenie, stron, zamów, www, programista, portfolio, PHP,
+javascript, HTML, CSS, WordPress, Java, Delphi, TurboPascal, SQL "/>
+
+<meta name="description" content="Kocham programować! Zatrudnij programistę webowwego: PHP,
+ JavaScript, HTML, CSS, MySQL, WordPress, Java, Delphi, TurboPascal, SQL" />
+
+ <link rel="stylesheet" href="css/style.css" type="text/css" />
+ <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+ <link rel="stylesheet" href="css/dyplomy.css" type="text/css" />
+ <link href='http://fonts.googleapis.com/css?family=Lato|Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+ <script type="text/javascript" src="js/czasCytaty.js" ></script>
+ <!-- <script type="text/javascript" src="js/nowetlo.js" ></script> -->
+ <!-- <script type="text/javascript" src="js/dyplomy.js" ></script> -->
+ </head>
+<body onload="odliczanie()">
+	<div id="kontener">
+	
+		<div class="prostokat">
+			<div id="zdjecie"><a href="index.html" class="linkhtml5"><img src="image/ja1.jpg" alt="Moje zdjęcie" boorder="1"></a></div>
+			<div id="logo"><a href="index.html" class="linkhtml5">Robert Burek</a></div>
+			<div id="zegar"></div>
+			<div style="clear: both"></div>
+		</div>
+		<div class="kwadrat">
+			
+			 <div class="kafelek">
+				<a href="kimjestem.html" class="linkkafelka"><i class="icon-user"></i></br>O mnie</a>
+			 </div>
+			<div class="kafelek1">
+				<a href="oferta.html" class="linkkafelka"><i class="icon-laptop"></i></br>Moje prace</a>
+			</div>
+			<div style="clear: both"></div>
+			
+			<div class="kafelek2">
+				<a href="cv.html" class="linkkafelka"><i class="icon-graduation-cap"></i></br>Curriculum vitae</a>
+			</div>
+			<div class="kafelek3">
+				<a href="kontakt.html" class="linkkafelka"><i class="icon-mail"></i></br>Kontakt ze mną</a>
+			</div>
+			<div style="clear: both"></div>
+		
+			<div class="kafelek4">
+				<i id="linia1">"Wybierz pracę, którą kochasz, a nie przepracujesz</br></i> 
+				<i id="linia2">ani jednego dnia więcej w Twoim życiu."</i>
+				<i></br></i>
+				<div id="autor">Robert Burek</div>
+			</div>
+		</div>
+		<div class="kwadrat">
+			<div class="kafelek5">
+				<div id="noweTlo" class="oferta">
+				<a id="prev" class="nawigacja Lewa"><</a>
+                <a id="next" class="nawigacja Prawa">></a>
+                <div>
+                    <!-- <embed src="image/Dyplomy/AngielskiPoLatachA1_uouw.pdf" width="100%" height="500"> -->
+                    <img class="poziomo" src="image/Dyplomy/SpringFrameworkOdPodstaw_strefaKursow.jpg" alt="">
+                    <img class="poziomo" src="image/Dyplomy/BeginnerJavaJavaFXMavenJenkins_udemy.jpg" alt="">
+                    <img class="poziomo" src="image/Dyplomy/JavaOdPodstawDoEksperta_udemy.jpg" alt="">
+                    <img class="poziomo" src="image/Dyplomy/JavaWzorceProjektowe_strefaKursow.jpg" alt="">
+                    <img class="poziomo" src="image/Dyplomy/JavaŚredniozaawansowana_strefaKursow.jpg" alt="">
+                    <img class="poziomo" src="image/Dyplomy/DobrePraktykiPracyWZespole_strefaKursow.jpg" alt="">
+                    <img class="poziomo" src="image/Dyplomy/JDBCandMySQL_udemy.jpg" alt="">
+                    <img class="poziomo" src="image/Dyplomy/JDBCinSimpleWay _udemy.jpg" alt="">
+                    <img class="poziomo" src="image/Dyplomy/FundamentyJezykaJava_strefaKursow.jpg" alt="">
+                    <img class="poziomo" src="image/Dyplomy/Certyfikat_codeORG.jpg" alt="">
+                    <img class="pionowo" src="image/Dyplomy/EComerceWPraktyce_uouw.jpg" alt="">
+                    <img class="pionowo" src="image/Dyplomy/Certyfikat GIT_eduwebpl.jpg" alt="">
+                    <img class="poziomo" src="image/Dyplomy/KursProgramowaniaWJava_strefaKursow.jpg" alt="">
+                    <img class="pionowo" src="image/Dyplomy/AngOdZeraDoBohatIA2_uouw.jpg" alt="">
+                    <img class="pionowo" src="image/Dyplomy/AngielskiPoLatachA1_uouw.jpg" alt="">
+                    <img class="pionowo" src="image/Dyplomy/AngOdZeraDoBohatIIIA1A2_uouw.jpg" alt="">
+                    <img class="pionowo" src="image/Dyplomy/JakCięWidząAutoprezentacja_uouw.jpg" alt="">
+                    <img class="pionowo" src="image/Dyplomy/AngOdZeraDoBohatIIA1_uouw.jpg" alt="">
+                    <img class="pionowo" src="image/Dyplomy/ScenaDlaKażdego_uouw.jpg" alt="">
+                </div>
+				</div>
+			</div>
+			<div style="clear: both"></div>
+			<div class="yt">
+				<a href="http://youtube.com" title="Jeszcze mnie tam nie ma!" class="linksocjala"  target="_blank"><i class="icon-youtube"></i></a>
+			</div>
+			<div class="fb">
+				<a href="http://facebook.com" title="Jeszcze mnie tam nie ma!" class="linksocjala" target="_blank"><i class="icon-facebook"></i></a>
+			</div>
+			<div class="gplus">
+				<a href="http://plus.google.com" title="Jeszcze mnie tam nie ma!" class="linksocjala" target="_blank"><i class="icon-gplus"></i></a>
+			</div>
+			<div class="tw">
+				<a href="http://twitter.com" title="Jeszcze mnie tam nie ma!" class="linksocjala" target="_blank"><i class="icon-twitter"></i></a>
+			</div>
+			<div style="clear: both"></div>		
+		</div>
+		<div style="clear: both"></div>
+		<div class="prostokat" allign="center">
+			2016 &copy; Robert Burek - portfolio. Obecnie szukam pracy!!! <i class="icon-mail-alt"></i> robertburek@wp.pl 
+			<div class="modyfikacja">Ostatnia modyfikacja: 29.06.2019r</div>
+		</div>	
     </div>
-    <div class="okno">
-        <!-- <embed src="image/Dyplomy/AngielskiPoLatachA1_uouw.pdf" width="100%" height="500"> -->
-        <img class="poziomo" src="image/Dyplomy/SpringFrameworkOdPodstaw_strefaKursow.jpg" alt="">
-        <img class="poziomo" src="image/Dyplomy/BeginnerJavaJavaFXMavenJenkins_udemy.jpg" alt="">
-        <img class="poziomo" src="image/Dyplomy/JavaOdPodstawDoEksperta_udemy.jpg" alt="">
-        <img class="poziomo" src="image/Dyplomy/JavaWzorceProjektowe_strefaKursow.jpg" alt="">
-        <img class="poziomo" src="image/Dyplomy/JavaŚredniozaawansowana_strefaKursow.jpg" alt="">
-        <img class="poziomo" src="image/Dyplomy/DobrePraktykiPracyWZespole_strefaKursow.jpg" alt="">
-        <img class="poziomo" src="image/Dyplomy/JDBCandMySQL_udemy.jpg" alt="">
-        <img class="poziomo" src="image/Dyplomy/JDBCinSimpleWay _udemy.jpg" alt="">
-        <img class="poziomo" src="image/Dyplomy/FundamentyJezykaJava_strefaKursow.jpg" alt="">
-        <img class="poziomo" src="image/Dyplomy/Certyfikat_codeORG.jpg" alt="">
-        <img class="pionowo" src="image/Dyplomy/EComerceWPraktyce_uouw.jpg" alt="">
-        <img class="pionowo" src="image/Dyplomy/Certyfikat GIT_eduwebpl.jpg" alt="">
-        <img class="poziomo" src="image/Dyplomy/KursProgramowaniaWJava_strefaKursow.jpg" alt="">
-        <img class="pionowo" src="image/Dyplomy/AngOdZeraDoBohatIA2_uouw.jpg" alt="">
-        <img class="pionowo" src="image/Dyplomy/AngielskiPoLatachA1_uouw.jpg" alt="">
-        <img class="pionowo" src="image/Dyplomy/AngOdZeraDoBohatIIIA1A2_uouw.jpg" alt="">
-        <img class="pionowo" src="image/Dyplomy/JakCięWidząAutoprezentacja_uouw.jpg" alt="">
-        <img class="pionowo" src="image/Dyplomy/AngOdZeraDoBohatIIA1_uouw.jpg" alt="">
-        <img class="pionowo" src="image/Dyplomy/ScenaDlaKażdego_uouw.jpg" alt="">
-    </div>
-    
     <script src="js/dyplomy.js"></script>
- </body>
+</body>
 </html>
