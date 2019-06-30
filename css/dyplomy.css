@@ -18,6 +18,24 @@ img{
     margin-top: 2px;
 }
 
+.udemy{
+    width: 84%;
+    margin-left: -22px;
+    margin-top: 2px;
+}
+
+.strefakursow{
+    width: 87%;
+    margin-left: -29px;
+    margin-top: 4px;        
+}
+
+.uouw{
+    max-width: 44%;
+    margin-left: 75px;
+    margin-top: 2px;
+}
+
 .visible{
     display: inline-block;
 }
