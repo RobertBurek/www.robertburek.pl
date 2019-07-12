@@ -32,7 +32,7 @@ for (let i = dyplomy.length - 1; i >= 0; i--) {
     var img = document.createElement('img');
     img.src = dyplomy[i][0];
     img.classList = dyplomy[i][1];
-    img.alt = (dyplomy[i][0]).substr(14, (dyplomy[i][0]).length - 4);
+    img.alt = (dyplomy[i][0]).substr(14, (dyplomy[i][0]).length - 18);
     div.appendChild(img);
     // console.log('obrazek:', dyplomy[i][0], ' class:', dyplomy[i][1], ' i:', i)
 }
