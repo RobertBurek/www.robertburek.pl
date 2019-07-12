@@ -127,7 +127,17 @@ javascript, HTML, CSS, WordPress, Java, Delphi, TurboPascal, SQL " />
 		<div class="prostokat" allign="center">
 			2016 &copy; Robert Burek - portfolio. Obecnie szukam pracy!!! <i class="icon-mail-alt"></i>
 			robertburek@wp.pl
-			<div class="modyfikacja">Ostatnia modyfikacja: 29.06.2019r</div>
+			<div class="modyfikacja">
+				<script language="JavaScript">
+					update = new Date(document.lastModified)
+					mm = update.getMonth() + 1
+					dd = update.getDate()
+					rrrr = update.getFullYear()
+					if (mm < 10) mm = "0" + mm
+					if (dd < 10) dd = "0 " + dd
+					document.write("Ostatnia modyfikacja: " + dd + "." + mm + "." + rrrr);
+				</script>
+			</div>
 		</div>
 	</div>
 	<script src="js/dyplomy.js"></script>
