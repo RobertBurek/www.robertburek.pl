@@ -36,6 +36,12 @@ img{
     margin-top: 2px;
 }
 
+.altkom{
+    max-width: 44%;
+    margin-left: 75px;
+    margin-top: 3px;
+}
+
 .visible{
     display: inline-block;
 }

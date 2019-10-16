@@ -2,8 +2,9 @@
 var index = 1;
 
 const dyplomy = [];
-dyplomy[32] = ['image/Dyplomy/JavaDeveloper_strefaKursow.png', 'strefaKursow']
-dyplomy[31] = ['image/Dyplomy/AdministratorBazDanych_strefaKursow.png', 'strefaKursow']
+dyplomy[33] = ['image/Dyplomy/JavaDeveloper_strefaKursow.png', 'strefaKursow']
+dyplomy[32] = ['image/Dyplomy/AdministratorBazDanych_strefaKursow.png', 'strefaKursow']
+dyplomy[31] = ['image/Dyplomy/Podstawy programowania - back end_altkom.jpg', 'altkom']
 dyplomy[30] = ['image/Dyplomy/KursMicrosoftSQLServerOdPodstaw_strefaKursow.jpg', 'strefaKursow']
 dyplomy[29] = ['image/Dyplomy/KursMongoDBnowoczesneBazyDanych_strefaKursow.jpg', 'strefaKursow']
 dyplomy[28] = ['image/Dyplomy/KursBazyDanychMySQLodPodstaw_strefaKursow.jpg', 'strefaKursow']
