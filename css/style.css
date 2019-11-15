@@ -1,5 +1,10 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
 body
 	{
+	margin: 5px;
 	background-color: #303030;
 	color: #ffffff;
 	font-family: 'Lato', sans-serif;
@@ -87,7 +92,7 @@ a.linkkafelka
 	text-decoration: none;
 	display: block;
 	width: 30px;
-	height: 169px;
+	height: 304px;
 	background-color: gray;
 	opacity: 0.5;
 	padding-top: 135px;
@@ -244,8 +249,8 @@ a
 .kafelek4
 	{
 	margin:10px;
-	width: 420px;
-	height: 82px;
+	width: 480px;
+	height: 142px;
 	background-color: #ee5a32;
 	text-align: center;
 	padding:30px;
@@ -270,8 +275,8 @@ a
 .kafelek5
 	{
 	margin:10px;
-	width: 440px;
-	height: 264px;
+	width: 480px;
+	height: 304px;
 	background-color: #666666;
 	text-align: justify;
 	padding: 20px;
@@ -394,20 +399,30 @@ a
 	
 @media screen and (max-width: 800px){
 
-	.dwaKwadraty {
+	#kontener 
+	{
+		width: 500px;
+		/* margin: 0 auto; */
+	}
+
+	.dwaKwadraty 
+	{
 	display: flex;
 	flex-direction: column-reverse;
 	}
 
-	.yt, .fb, .gplus, .tw {
+	.yt, .fb, .gplus, .tw 
+	{
 		display: none;
 	}
 
-	#tytul h1{
+	#tytul h1
+	{
 		font-size: 2.8em;
 	}
 
-	#zegar, #footer {
+	#zegar, #footer 
+	{
 		display: none;
 	}
 
@@ -419,15 +434,23 @@ a
 	-o-transform: none;
 	}
 
-	#kontener {
-		width: 500px;
-		margin: 0 auto;
+	.kwadrat 
+	{
+		width: 100%;
 	}
 
-	.kwadrat {
+	.prostokat 
+	{
 		width: 100%;
 	}
-	.prostokat {
-		width: 100%;
+
+	#zdjecie img 
+	{
+		width: 90px;
+		height: 100px;
+	}
+
+	#tytul {
+		margin-top: 15px;
 	}
 }
