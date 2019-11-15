@@ -282,6 +282,7 @@ a
 .kafelek5:hover
 	{
 	cursor: default;
+	transform: translate(-250px, 105px) scale(2.05, 1.7);
 	-webkit-transform: translate(-250px, 105px) scale(2.05, 1.7);
 	-ms-transform: translate(-250px, 81px) scale(2.05, 1.7);
 	-o-transform: translate(-250px, 81px) scale(2.05, 1.7);
@@ -389,3 +390,44 @@ a
 	text-align: right;
 	}
 
+	/* MEDIA */
+	
+@media screen and (max-width: 800px){
+
+	.dwaKwadraty {
+	display: flex;
+	flex-direction: column-reverse;
+	}
+
+	.yt, .fb, .gplus, .tw {
+		display: none;
+	}
+
+	#tytul h1{
+		font-size: 2.8em;
+	}
+
+	#zegar, #footer {
+		display: none;
+	}
+
+	.kafelek5:hover
+	{
+	transform: none;
+	-webkit-transform: none;
+	-ms-transform: none;
+	-o-transform: none;
+	}
+
+	#kontener {
+		width: 500px;
+		margin: 0 auto;
+	}
+
+	.kwadrat {
+		width: 100%;
+	}
+	.prostokat {
+		width: 100%;
+	}
+}
