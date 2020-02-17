@@ -2,6 +2,7 @@
 var index = 1;
 
 const dyplomy = [];
+dyplomy[36] = ['image/Dyplomy/AplikacjeWeboweWJezykuJava.jpg', 'altkom']
 dyplomy[35] = ['image/Dyplomy/JavaDeveloper_strefaKursow.png', 'strefaKursow']
 dyplomy[34] = ['image/Dyplomy/AdministratorBazDanych_strefaKursow.png', 'strefaKursow']
 dyplomy[33] = ['image/Dyplomy/Bazy danych relacyjne i nierelacyjne. Język SQL_altkom.jpg', 'altkom']
