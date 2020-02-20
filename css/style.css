@@ -317,25 +317,30 @@ a
 
 .nowa2
 	{
-  	background-image: url(../image/ListaCars.png);
+  	background-image: url(../image/ShoppingList.png);
 	}
 
 .nowa3
 	{
-  	background-image: url(../image/AnalizaKagi2.png);
+  	background-image: url(../image/ListaCars.png);
 	}
 
 .nowa4
 	{
-  	background-image: url(../image/MaklerInfo2.png);
+  	background-image: url(../image/AnalizaKagi2.png);
 	}
 
 .nowa5
 	{
-  	background-image: url(../image/Angielski2.png);
+  	background-image: url(../image/MaklerInfo2.png);
 	}
 
 .nowa6
+	{
+  	background-image: url(../image/Angielski2.png);
+	}
+
+.nowa7
 	{
   	background-image: url(../image/IKE2.png);
 	}
