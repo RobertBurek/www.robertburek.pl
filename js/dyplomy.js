@@ -2,6 +2,8 @@
 var index = 1;
 
 const dyplomy = [];
+dyplomy[41] = ['image/Dyplomy/ProgramistaJavaWEB_1str_altkom.jpg', 'altkom']
+dyplomy[40] = ['image/Dyplomy/ProgramistaJavaWEB_2str_altkom.jpg', 'altkom']
 dyplomy[39] = ['image/Dyplomy/OcenaKompetencjiZawodowychDC_altkom.jpg', 'altkom']
 dyplomy[38] = ['image/Dyplomy/RoleWZespoleProgramistycznym_altkom.jpg', 'altkom']
 dyplomy[37] = ['image/Dyplomy/WzorceProjektoweNarzędziaPracyGrupowej_altkom.jpg', 'altkom']
